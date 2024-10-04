@@ -1,0 +1,37 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+th{
+
+}
+.sox{
+    background-color:#0d8306 ;
+    color: white;
+}
+.sx{
+    background-color: #2b077a;
+    color: white;
+}
+.si{
+    background-color: #84818e;
+}
+.aw{
+    background-color: #8dee00;
+}
+.eie {
+    background-color: #4abd8c;
+}
+.pati{
+    background-color: burlywood;
+}
+.dies{
+    background-color: darkkhaki;
+}
+.hores{
+    background-color: cadetblue;
+}
