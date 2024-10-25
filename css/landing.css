@@ -1,5 +1,6 @@
 :root{
-    --primary-color:#F22E3E;
+    --primary-color:#f3b0b5;
+    --secondary-color:rgb(85, 33, 33);
 }
 
 body{
@@ -9,7 +10,7 @@ body{
 }
 
 #showcase{
-    color: white;
+    color: var(--primary-color);
     background-image: url(../img/ac-milan-logo.jpg);
     height: 100vh;
     background-size:cover ;
@@ -21,6 +22,50 @@ body{
     font-size: 1.3em;
 }
 #showcase::after{
-    content: "hola";
+    content: "";
     position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
 }
+h1, p, a{
+    z-index: 2;
+}
+a{
+    background-color: var(--primary-color);
+    text-decoration: none;
+    padding: 3px;
+    color: var(--secondary-color);
+    border-radius: 8px;
+}
+a:hover{
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+.fons1{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+    #section-1{
+    text-align: center;
+    padding: 20px;
+}
+#section-2{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    text-align: center;
+    padding: 20px;
+}
+#section-3{
+    display: flex;
+}
+div{
+    padding: 20px;
+}
+.box2{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}  
