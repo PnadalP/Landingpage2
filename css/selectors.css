@@ -79,7 +79,10 @@ label{
 }
 
 /*Fes que la primera lletra de l'element amb id 'special' sigui verda i amb font de 100px font size(font-size: 100)*/
-
+#special{
+    color: green;
+    font-size: 100px;
+}
 
 /*Fes que el color de font del <h1> canviï a blau quan el ratolí passi per damuntelement's color change to blue when hovered over */
 
