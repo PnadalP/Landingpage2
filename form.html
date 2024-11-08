@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exercici, Formulari de registre</h1>
+    <form action="/my-form-submitting-page" method="get">
+        <div>
+            <label for="nom">Nom:</label>
+            <input id="nom" name="nom" type="text">
+            <label for="llinatges">Llinatges:</label>
+            <input id="llinatges" name="llinatges" type="text">
+        </div>
+        <div>
+            <input type="radio" id="home" name="genere" value="home">
+            <label for="home">Home</label>
+            <input type="radio" id="dona" name="genere" value="dona">
+            <label for="dona">Dona</label>
+            <input type="radio" id="altres" name="genere" value="altres">
+            <label for="altres">Altres</label>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="El teu email">
+            <label for="password">Contrasenya</label>
+            <input id="password" name="password type="password">
+        </div>
+        <div>
+            <label for="data_naix">Data de naixament:</label>
+            <input type="date" name="data_naix" id="data_naix">
+        </div>
+        <div>
+            <label for="condicions">Estic d'acord amb els termes i condicions:</label>
+            <input type="checkbox" name="condicions" id="condicions">
+        </div>
+        <div>
+            <input type="submit" name="submit" value="Envia">
+        </div>
+    </form>
+</body>
+</html>
